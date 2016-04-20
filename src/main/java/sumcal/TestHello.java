@@ -14,8 +14,8 @@ public class TestHello {
 
 	@Test
 	public void testSum() {
-		hello.sum(3);
-		assertEquals(1+2+3,hello.getResult());
+		hello.sum(5);
+		assertEquals(1+2+3+4+5,hello.getResult());
 		//fail("Not yet implemented");
 	}
 
